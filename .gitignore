@@ -1,0 +1,35 @@
+# === Compiled output ===
+out/
+*.class
+
+# === IDE files ===
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# === Database (giữ cinema.db mẫu, bỏ qua các bản runtime) ===
+# Uncomment dòng dưới nếu không muốn đẩy DB lên GitHub:
+# data/cinema.db
+
+# === Binary backup files (tạo tự động khi chạy) ===
+data/backup/*.dat
+
+# === JAR đã build ===
+CinemaManagement.jar
+
+# === Zip files ===
+*.zip
+
+# === Log files ===
+*.log
